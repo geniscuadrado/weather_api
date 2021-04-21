@@ -32,6 +32,14 @@ services:
     networks:
       - elastic
 
+  fapi01:
+    build: .
+    container_name: fapi01
+    ports:
+      - 8080:8080
+    networks:
+      - elastic
+
 volumes:
   data01:
     driver: local

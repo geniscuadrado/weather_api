@@ -14,16 +14,12 @@ We show graphically the different processes of the mixer
     python3 -m venv venv
 3. Activate virtual environment:
     source venv/bin/activate
-    
-## Requirements to Create FastApi Docker image:
 
-1. Go to directory when Dockerfile is situated
-2. run **docker build -t fastapi .**
-3. run uvicorn app.main:app --host "0.0.0.0" --port "8080"
-
-## Requirements to Create Elastisearch and Kibana Docker image:
+## Requirements to Create Elastisearch, Kibana and FastApi Docker images:
 
 1. Go to directory when docker-compose.yml is situated.
 2. run docker-compose up -d
-3. Elasticsearch runs **http://localhost:9200**
-4. Kibana runs **http://localhost:5601/app/kibana#/home**
+3. Run uvicorn app.main:app --host "0.0.0.0" --port "8080"
+4. Elasticsearch runs **http://localhost:9200**
+5. Kibana runs **http://localhost:5601/app/kibana#/home**
+6. FastApi Swagger runs **http://localhost:8080/docs**
