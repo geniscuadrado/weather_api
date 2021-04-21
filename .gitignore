@@ -1,0 +1,6 @@
+__pycache__/
+venv/
+comandos.txt
+code_error.py
+code_error.json
+constanst.py

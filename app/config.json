@@ -1,0 +1,581 @@
+{
+    "logging": {
+        "level": "INFO",
+        "format": "[%(name)s] [%(levelname)s] %(message)s"
+    },
+    "url": {
+        "weather": "https://api.tutiempo.net",
+        "elastic": "http://localhost:9200"
+    },
+    "api_key": "qsTqqaa4aqa7qbl",
+    "index_elastic": "location",
+    "test": {
+        "id_name": "99461",
+        "name": "Ambatondrazaka",
+        "parse_info": {
+            "copyright": "Tutiempo Network, S.L.",
+            "use": "Se autoriza el uso de estos datos citando a https://www.tutiempo.net como fuente de los mismos.",
+            "information": {
+                "temperature": "ºC",
+                "wind": "km/h",
+                "humidity": "%",
+                "pressure": "hPa"
+            },
+            "web": "https://www.tutiempo.net",
+            "language": "es",
+            "locality": {
+                "name": "Ambalavao",
+                "url_weather_forecast_15_days": "https://www.tutiempo.net/ambalavao.html",
+                "url_hourly_forecast": "https://www.tutiempo.net/ambalavao.html?datos=por-horas",
+                "country": "Madagascar",
+                "url_country": "https://www.tutiempo.net/madagascar.html"
+            },
+            "day1": {
+                "date": "2021-4-11",
+                "temperature_max": 25,
+                "temperature_min": 14,
+                "icon": "19",
+                "text": "Muy nuboso con lluvias",
+                "humidity": 80,
+                "wind": 10,
+                "wind_direction": "Este",
+                "icon_wind": "E",
+                "sunrise": "6:02",
+                "sunset": "17:45",
+                "moonrise": "05:19",
+                "moonset": "17:35",
+                "moon_phases_icon": "hs/29"
+            },
+            "day2": {
+                "date": "2021-4-12",
+                "temperature_max": 24,
+                "temperature_min": 16,
+                "icon": "19",
+                "text": "Cubierto con lluvias",
+                "humidity": 80,
+                "wind": 10,
+                "wind_direction": "Sureste",
+                "icon_wind": "SE",
+                "sunrise": "6:03",
+                "sunset": "17:44",
+                "moonrise": "06:09",
+                "moonset": "18:07",
+                "moon_phases_icon": "hs/1"
+            },
+            "day3": {
+                "date": "2021-4-13",
+                "temperature_max": 23,
+                "temperature_min": 15,
+                "icon": "19",
+                "text": "Cubierto con lluvias",
+                "humidity": 84,
+                "wind": 12,
+                "wind_direction": "Este",
+                "icon_wind": "E",
+                "sunrise": "6:03",
+                "sunset": "17:44",
+                "moonrise": "06:59",
+                "moonset": "18:40",
+                "moon_phases_icon": "hs/2"
+            },
+            "day4": {
+                "date": "2021-4-14",
+                "temperature_max": 24,
+                "temperature_min": 14,
+                "icon": "19",
+                "text": "Cubierto con lluvias",
+                "humidity": 84,
+                "wind": 7,
+                "wind_direction": "Este",
+                "icon_wind": "E",
+                "sunrise": "6:03",
+                "sunset": "17:43",
+                "moonrise": "07:49",
+                "moonset": "19:16",
+                "moon_phases_icon": "hs/3"
+            },
+            "day5": {
+                "date": "2021-4-15",
+                "temperature_max": 25,
+                "temperature_min": 14,
+                "icon": "33",
+                "text": "Parcialmente nuboso con lluvias",
+                "humidity": 80,
+                "wind": 9,
+                "wind_direction": "Sureste",
+                "icon_wind": "SE",
+                "sunrise": "6:04",
+                "sunset": "17:42",
+                "moonrise": "08:40",
+                "moonset": "19:54",
+                "moon_phases_icon": "hs/4"
+            },
+            "day6": {
+                "date": "2021-4-16",
+                "temperature_max": 24,
+                "temperature_min": 15,
+                "icon": "19",
+                "text": "Muy nuboso con lluvias",
+                "humidity": 72,
+                "wind": 17,
+                "wind_direction": "Oeste",
+                "icon_wind": "O",
+                "sunrise": "6:04",
+                "sunset": "17:41",
+                "moonrise": "09:33",
+                "moonset": "20:35",
+                "moon_phases_icon": "hs/5"
+            },
+            "day7": {
+                "date": "2021-4-17",
+                "temperature_max": 18,
+                "temperature_min": 13,
+                "icon": "19",
+                "text": "Cubierto con lluvias",
+                "humidity": 87,
+                "wind": 9,
+                "wind_direction": "Sureste",
+                "icon_wind": "SE",
+                "sunrise": "6:04",
+                "sunset": "17:40",
+                "moonrise": "10:26",
+                "moonset": "21:22",
+                "moon_phases_icon": "hs/6"
+            },
+            "hour_hour": {
+                "hour1": {
+                    "date": "2021-4-11",
+                    "hour_data": "23:00",
+                    "temperature": 16,
+                    "text": "Parcialmente nuboso con lluvias",
+                    "humidity": 98,
+                    "pressure": 1021,
+                    "icon": "19",
+                    "wind": 6,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour2": {
+                    "date": "2021-4-12",
+                    "hour_data": "0:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 96,
+                    "pressure": 1021,
+                    "icon": "6n",
+                    "wind": 6,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour3": {
+                    "date": "2021-4-12",
+                    "hour_data": "1:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 93,
+                    "pressure": 1020,
+                    "icon": "6n",
+                    "wind": 6,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour4": {
+                    "date": "2021-4-12",
+                    "hour_data": "2:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 90,
+                    "pressure": 1020,
+                    "icon": "6n",
+                    "wind": 6,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour5": {
+                    "date": "2021-4-12",
+                    "hour_data": "3:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso con lluvias",
+                    "humidity": 89,
+                    "pressure": 1019,
+                    "icon": "19",
+                    "wind": 6,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour6": {
+                    "date": "2021-4-12",
+                    "hour_data": "4:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 87,
+                    "pressure": 1019,
+                    "icon": "6n",
+                    "wind": 5,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour7": {
+                    "date": "2021-4-12",
+                    "hour_data": "5:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 86,
+                    "pressure": 1020,
+                    "icon": "6n",
+                    "wind": 6,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour8": {
+                    "date": "2021-4-12",
+                    "hour_data": "6:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso",
+                    "humidity": 86,
+                    "pressure": 1020,
+                    "icon": "6n",
+                    "wind": 7,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour9": {
+                    "date": "2021-4-12",
+                    "hour_data": "7:00",
+                    "temperature": 17,
+                    "text": "Cubierto",
+                    "humidity": 82,
+                    "pressure": 1021,
+                    "icon": "7",
+                    "wind": 6,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour10": {
+                    "date": "2021-4-12",
+                    "hour_data": "8:00",
+                    "temperature": 18,
+                    "text": "Parcialmente nuboso",
+                    "humidity": 78,
+                    "pressure": 1021,
+                    "icon": "4",
+                    "wind": 7,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour11": {
+                    "date": "2021-4-12",
+                    "hour_data": "9:00",
+                    "temperature": 20,
+                    "text": "Muy nuboso",
+                    "humidity": 69,
+                    "pressure": 1021,
+                    "icon": "6",
+                    "wind": 7,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour12": {
+                    "date": "2021-4-12",
+                    "hour_data": "10:00",
+                    "temperature": 21,
+                    "text": "Cubierto",
+                    "humidity": 62,
+                    "pressure": 1021,
+                    "icon": "7",
+                    "wind": 7,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour13": {
+                    "date": "2021-4-12",
+                    "hour_data": "11:00",
+                    "temperature": 22,
+                    "text": "Parcialmente nuboso",
+                    "humidity": 59,
+                    "pressure": 1020,
+                    "icon": "4",
+                    "wind": 8,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour14": {
+                    "date": "2021-4-12",
+                    "hour_data": "12:00",
+                    "temperature": 23,
+                    "text": "Cubierto",
+                    "humidity": 55,
+                    "pressure": 1019,
+                    "icon": "7",
+                    "wind": 9,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour15": {
+                    "date": "2021-4-12",
+                    "hour_data": "13:00",
+                    "temperature": 24,
+                    "text": "Cubierto",
+                    "humidity": 55,
+                    "pressure": 1018,
+                    "icon": "7",
+                    "wind": 8,
+                    "wind_direction": "Este",
+                    "icon_wind": "E"
+                },
+                "hour16": {
+                    "date": "2021-4-12",
+                    "hour_data": "14:00",
+                    "temperature": 24,
+                    "text": "Cubierto",
+                    "humidity": 55,
+                    "pressure": 1017,
+                    "icon": "7",
+                    "wind": 8,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour17": {
+                    "date": "2021-4-12",
+                    "hour_data": "15:00",
+                    "temperature": 23,
+                    "text": "Muy nuboso",
+                    "humidity": 60,
+                    "pressure": 1017,
+                    "icon": "6",
+                    "wind": 10,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour18": {
+                    "date": "2021-4-12",
+                    "hour_data": "16:00",
+                    "temperature": 22,
+                    "text": "Cubierto con lluvias",
+                    "humidity": 66,
+                    "pressure": 1017,
+                    "icon": "19",
+                    "wind": 10,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour19": {
+                    "date": "2021-4-12",
+                    "hour_data": "17:00",
+                    "temperature": 20,
+                    "text": "Cubierto con lluvias",
+                    "humidity": 79,
+                    "pressure": 1018,
+                    "icon": "19",
+                    "wind": 9,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour20": {
+                    "date": "2021-4-12",
+                    "hour_data": "18:00",
+                    "temperature": 18,
+                    "text": "Cubierto con lluvias",
+                    "humidity": 89,
+                    "pressure": 1019,
+                    "icon": "19",
+                    "wind": 8,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour21": {
+                    "date": "2021-4-12",
+                    "hour_data": "19:00",
+                    "temperature": 17,
+                    "text": "Cubierto",
+                    "humidity": 94,
+                    "pressure": 1020,
+                    "icon": "7",
+                    "wind": 8,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour22": {
+                    "date": "2021-4-12",
+                    "hour_data": "20:00",
+                    "temperature": 16,
+                    "text": "Cubierto",
+                    "humidity": 97,
+                    "pressure": 1021,
+                    "icon": "7",
+                    "wind": 7,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour23": {
+                    "date": "2021-4-12",
+                    "hour_data": "21:00",
+                    "temperature": 16,
+                    "text": "Muy nuboso con lluvias",
+                    "humidity": 97,
+                    "pressure": 1021,
+                    "icon": "19",
+                    "wind": 7,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour24": {
+                    "date": "2021-4-12",
+                    "hour_data": "22:00",
+                    "temperature": 16,
+                    "text": "Cubierto",
+                    "humidity": 97,
+                    "pressure": 1021,
+                    "icon": "7",
+                    "wind": 6,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                },
+                "hour25": {
+                    "date": "2021-4-12",
+                    "hour_data": "23:00",
+                    "temperature": 16,
+                    "text": "Cubierto",
+                    "humidity": 96,
+                    "pressure": 1020,
+                    "icon": "7",
+                    "wind": 7,
+                    "wind_direction": "Sureste",
+                    "icon_wind": "SE"
+                }
+            }
+        },
+        "parse_elastic": {
+            "took": 12,
+            "timed_out": false,
+            "_shards": {
+                "total": 1,
+                "successful": 1,
+                "skipped": 0,
+                "failed": 0
+            },
+            "hits": {
+                "total": {
+                    "value": 7,
+                    "relation": "eq"
+                },
+                "max_score": 1.89712,
+                "hits": [{
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-16",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-16",
+                            "temperature_max": 26,
+                            "temperature_min": 17,
+                            "humidity": 87,
+                            "wind": 8,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-17",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-17",
+                            "temperature_max": 27,
+                            "temperature_min": 17,
+                            "humidity": 85,
+                            "wind": 13,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-18",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-18",
+                            "temperature_max": 19,
+                            "temperature_min": 16,
+                            "humidity": 92,
+                            "wind": 15,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-19",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-19",
+                            "temperature_max": 20,
+                            "temperature_min": 16,
+                            "humidity": 89,
+                            "wind": 14,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-20",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-20",
+                            "temperature_max": 24,
+                            "temperature_min": 15,
+                            "humidity": 82,
+                            "wind": 15,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-21",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-21",
+                            "temperature_max": 21,
+                            "temperature_min": 15,
+                            "humidity": 88,
+                            "wind": 13,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    },
+                    {
+                        "_index": "location",
+                        "_type": "_doc",
+                        "_id": "99461_2021-4-22",
+                        "_score": 1.89712,
+                        "_source": {
+                            "date": "2021-4-22",
+                            "temperature_max": 24,
+                            "temperature_min": 18,
+                            "humidity": 86,
+                            "wind": 16,
+                            "name": "Ambatondrazaka",
+                            "id_name": "99461",
+                            "country": "Madagascar"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+
+
+}
