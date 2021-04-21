@@ -17,7 +17,7 @@ We show graphically the different processes of the mixer
 
 ## Requirements to Create Elastisearch, Kibana and FastApi Docker images:
 
-1. Go to directory when docker-compose.yml is situated.
+1. Go to directory where is docker-compose.yml 
 2. run docker-compose up -d
 3. Run uvicorn app.main:app --host "0.0.0.0" --port "8080"
 4. Elasticsearch runs **http://localhost:9200**
